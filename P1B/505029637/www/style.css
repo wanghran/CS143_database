@@ -1,0 +1,40 @@
+.nav_bar  {
+	float:left;
+    width: 20%;
+}
+
+.nav_bar a {
+    background-color: #eee;
+    color: blue;
+    display: block;
+    padding: 6px;
+    text-decoration: none;
+}
+
+.nav_bar a:hover {
+    background-color: #ccc;
+}
+
+.nav_bar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.target{
+	float: right;
+	width:65%;
+}
+
+table, th, td {
+        border: 1px solid blue;
+        width:75%;
+        height:30px;
+        
+}
+
+input[type="text"]{
+        height: 30px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        width: 30%;
+}
